@@ -4,7 +4,7 @@ This library can import pretrained [keras tokenizer](https://keras.io/preprocess
 To use tokenization per word use WordStrategy, for per character tokenization use CharacterStrategy. This is the same behavior as setting the char_level property on the tokenizer.
 
 # how-to
-## train export tokenizer
+## train and export tokenizer
 ```python
 from keras.preprocessing.text import Tokenizer
 tokenizer = Tokenizer(num_words=tokenizer_word_count, char_level=False, filters='', split=' ')
