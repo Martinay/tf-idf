@@ -1,4 +1,4 @@
-# tfidf in c#
+# term frequency–inverse document frequency (tf-idf) in c#
 
 This library can import pretrained [keras tokenizer](https://keras.io/preprocessing/text/), which were exported in json format. With the imported tokenizer it is possible to transform text with [tf-idf](https://en.wikipedia.org/wiki/Tf-idf).
 To use tokenization per word use WordStrategy, for per character tokenization use CharacterStrategy. This is the same behavior as setting the char_level property on the tokenizer.
